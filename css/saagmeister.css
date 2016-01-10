@@ -1,0 +1,157 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 92%;
+    line-height: .5em;}
+
+
+section {padding: 2em 0 2em 0}
+
+header {padding-top: 1.em;}
+footer {padding-top: 2.5em}
+footer {padding-bottom:2em}
+
+
+
+.red1 
+{ background: #FF0033;}
+
+.black
+{ background: #323232;} /* or #323232 if too dark */
+
+.grey
+{ background: #7f7f7f;}
+
+/* --------------- TYPOGRAPHY ---------------- */
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6em;
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+}
+
+h2, h3 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: em;
+    font-size: 120%;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    }
+
+h1 {
+    width: 100%;
+    max-width: 400px;
+    min-width: 320px;
+    color: #660000;
+    font-size: 5.6em;
+    letter-spacing: -.5px;
+    line-height: 1em;
+    margin: auto;
+    margin-top: .2em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; font-weight: 200;
+    padding: 2.85em 0em 0em 0em;
+
+    }
+
+.many {
+    font-family: 'Raleway', sans-serif; font-weight: bold;
+    font-size: .99em;
+}
+
+.subtitle {
+    font-weight: normal;
+    text-align: center;
+    margin-top: em;
+    font-size: 120%;
+    color: #660000;
+    padding-bottom: 2.25em;
+}
+
+blockquote {
+text-align: center;
+}
+
+cite {
+    text-align: center;}
+
+.redtext {
+color: #FF0033;
+}
+
+.whitetext {
+color: #FFFFFF;
+
+}
+
+.whitetext1 {
+color: #000000;
+text-align: center;
+    line-height: 6em;
+}
+
+
+
+/* --------------- NAV ---------------- */
+
+nav {
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        color: #660000;
+   }
+
+ nav ul {
+        text-align: center;
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        letter-spacing: 1px;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        color: #660000; 
+        width: 100%;
+ }
+    
+nav ul li  {
+        display: inline;
+        margin: 5px;
+    font-family: 'Raleway', sans-serif;
+     color: #660000;}
+
+nav a:hover {
+    color: aliceblue;
+    border-bottom: none;
+    transition: all .4s ease-out;
+    transform:scale(1.2); 
+    }
+
+
+
+/*-----------IMAGES-----------------*/
+
+
+img {
+    display: block; 
+    max-width: 100%;
+    padding: 0;
+    margin: 1em auto;}
+
+
+    
+
+   
