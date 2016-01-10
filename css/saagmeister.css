@@ -37,13 +37,12 @@ h2, h3 {
     font-weight: normal;
     text-align: center;
     margin-top: em;
-    font-size: 120%;
+    font-size: 150%;
     padding-bottom: 1.5em;
-    padding-top: 1.5em;
+    padding-top: 1.em;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    max-width: 600px;
-    min-width: 320px;
+    
     }
 
 h1 {
@@ -147,9 +146,111 @@ nav a:hover {
 
 img {
     display: block; 
-    max-width: 100%;
     padding: 0;
     margin: 1em auto;}
+
+.social ul {
+    margin: 0;
+    padding: 0
+    }
+
+.social li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    }
+
+
+.social img {
+    opacity: 0.6;
+    border: none;
+    display: block; 
+    padding: 0;
+    margin: 1em auto;
+    justify-content: center;
+  
+    }
+
+.social a:hover img {
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.2);
+    }
+
+
+/*----------------MEDIA QUERIES-----------------*/
+
+
+/*-----TABLET-------*/
+@media (max-width: 50em) {
+     
+p, h1, h2, h3, blockquote, a, table
+{
+        width: 95%;}
+    
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%}
+}
+
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 31em) {
+
+    
+
+    p, h1, h2, h3, blockquote, a, table
+{
+        width: 90%;}
+    
+h1 {font-size: 3em;}   
+    
+    h3 {font-size: 2em}
+   
+nav {font-size: .75em;
+    margin: 0px}
+    
+blockquote { 
+    font-size: 1.3em; }
+    
+.intro {
+     width: 90%;
+     font-size: 1.3em; }
+    
+    
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 20px 50px;; 
+   }
+
+caption { 
+    font-size: em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    font-style: italic;
+    color:#3F638E ;
+    }
+
+
+table.head, th {
+    color: #3F638E;
+    text-transform: uppercase
+    font-weight: bold;
+    text-align: center;
+     }
+
+th, td {
+    font-size: 1em;
+    text-align: left;
+    padding: 0.6em;}
+
 
 
     
