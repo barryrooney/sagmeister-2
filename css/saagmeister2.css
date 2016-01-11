@@ -1,0 +1,297 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 92%;
+    line-height: .5em;}
+
+
+section {padding: 2em 0 2em 0}
+
+header {padding-top: 5em}
+footer {padding-top: 2.5em}
+footer {padding-bottom:2em}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background-color: #EEE;
+    color: #1F1F1F;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+html.no-touch body {
+    overflow: hidden;
+    position: relative;
+    perspective: 2000px;
+    -moz-perspective: 2000px;
+    -webkit-perspective: 2000px;
+
+    perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -webkit-perspective-origin: 50% 50%;
+
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+
+
+.red1 
+{ background: #FF0033;}
+
+.black
+{ background: #323232;} /* or #323232 if too dark */
+
+.grey
+{ background: #7f7f7f;}
+
+.pic1{
+    width: auto;
+    margin: auto;
+}
+
+/* --------------- TYPOGRAPHY ---------------- */
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6em;
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+}
+
+h2, h3 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: em;
+    font-size: 150%;
+    padding-bottom: 1.5em;
+    padding-top: 1.em;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    
+    }
+
+h1 {
+    width: 100%;
+    max-width: 400px;
+    min-width: 320px;
+    color: #660000;
+    font-size: 5.6em;
+    letter-spacing: -.5px;
+    line-height: 1em;
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; font-weight: 200;
+    padding: -.5em 0em 0em 0em;
+
+    }
+
+.many {
+    font-family: 'Raleway', sans-serif; font-weight: bold;
+    font-size: .99em;
+}
+
+.subtitle {
+    font-weight: normal;
+    text-align: center;
+    margin-top: em;
+    font-size: 120%;
+    color: #660000;
+    padding-bottom: 2.25em;
+}
+
+blockquote {
+text-align: center;
+}
+
+cite {
+    text-align: center;}
+
+.redtext {
+color: #FF0033;
+}
+
+.whitetext {
+color: #FFFFFF;
+
+}
+
+.whitetext1 {
+color: #000000;
+text-align: center;
+    line-height: 6em;
+}
+
+
+
+/* --------------- NAV ---------------- */
+
+nav {
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        color: #660000;
+   }
+
+ nav ul {
+        text-align: center;
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        letter-spacing: 1px;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        color: #660000; 
+        width: 100%;
+ }
+    
+nav ul li  {
+        display: inline;
+        margin: 5px;
+    font-family: 'Raleway', sans-serif;
+     color: #660000;}
+
+nav a:hover {
+    color: aliceblue;
+    border-bottom: none;
+    transition: all .4s ease-out;
+    transform:scale(1.2); 
+    }
+
+
+
+/*-----------IMAGES-----------------*/
+
+
+img {
+    display: block; 
+    max-width: 100%;
+    padding: 0;
+    margin: 1em auto;}
+
+.social  {
+    position: relative;
+    margin: auto 0;
+    }
+
+.social ul {
+    margin: 0;
+    padding: 0
+    }
+
+.social li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    }
+
+
+.social img {
+    opacity: 0.6;
+    border: none;
+    }
+
+.social a:hover img {
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.2);}
+    
+.saghead {
+    opacity: 0.1;}
+
+
+/*----------------MEDIA QUERIES-----------------*/
+
+
+/*-----TABLET-------*/
+@media (max-width: 50em) {
+     
+p, h1, h2, h3, blockquote, a, table
+{
+        width: 95%;}
+    
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%}
+}
+
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 31em) {
+
+    
+
+    p, h1, h2, h3, blockquote, a, table
+{
+        width: 90%;}
+    
+h1 {font-size: 3em;}   
+    
+    h3 {font-size: 2em}
+   
+nav {font-size: .75em;
+    margin: 0px}
+    
+blockquote { 
+    font-size: 1.3em; }
+    
+.intro {
+     width: 90%;
+     font-size: 1.3em; }
+    
+    
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 20px 50px;; 
+   }
+
+caption { 
+    font-size: em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    font-style: italic;
+    color:#3F638E ;
+    }
+
+
+table.head, th {
+    color: #3F638E;
+    text-transform: uppercase
+    font-weight: bold;
+    text-align: center;
+     }
+
+th, td {
+    font-size: 1em;
+    text-align: left;
+    padding: 0.6em;}
+
+
+
+    
+
+   
