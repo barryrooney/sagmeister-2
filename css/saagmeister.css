@@ -7,7 +7,7 @@
 
 section {padding: 2em 0 2em 0}
 
-header {padding-top: 1.em;}
+header {padding-top: 5em}
 footer {padding-top: 2.5em}
 footer {padding-bottom:2em}
 
@@ -21,6 +21,11 @@ footer {padding-bottom:2em}
 
 .grey
 { background: #7f7f7f;}
+
+.pic1{
+    width: auto;
+    margin: auto;
+}
 
 /* --------------- TYPOGRAPHY ---------------- */
 
@@ -54,10 +59,9 @@ h1 {
     letter-spacing: -.5px;
     line-height: 1em;
     margin: auto;
-    margin-top: .2em;
     text-align: center;
     font-family: 'Raleway', sans-serif; font-weight: 200;
-    padding: 2.85em 0em 0em 0em;
+    padding: -.5em 0em 0em 0em;
 
     }
 
