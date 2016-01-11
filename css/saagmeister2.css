@@ -1,8 +1,8 @@
 * { 
     padding: 0;
     margin: 0;
-    font-size: 92%;
-    line-height: .5em;}
+    font-size: 94%;
+    line-height: 1.em;}
 
 
 section {padding: 2em 0 2em 0}
@@ -13,10 +13,11 @@ footer {padding-bottom:2em}
 
 body {
     margin: 0;
-    min-width: 320px;
+    min-width: 500px;
+  
     background-color: #EEE;
     color: #1F1F1F;
-    font-size: 14px;
+    
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
     position: relative;
@@ -64,16 +65,16 @@ html.no-touch body {
 p{
     font-family: 'Raleway', sans-serif;
     line-height: 1.6em;
-    width: 100%;
-    max-width: 600px;
-    min-width: 320px;
+    width: 80%;
+    max-width: 2000px;
+    min-width: 300px;
     margin: auto;
+    
 }
 
 h2, h3 {
     font-weight: normal;
     text-align: center;
-    margin-top: em;
     font-size: 150%;
     padding-bottom: 1.5em;
     padding-top: 1.em;
@@ -83,17 +84,17 @@ h2, h3 {
     }
 
 h1 {
-    width: 100%;
-    max-width: 400px;
-    min-width: 320px;
+    width: 80%;
+    max-width:20000px;
+    min-width: 400px;
     color: #660000;
     font-size: 5.6em;
     letter-spacing: -.5px;
-    line-height: 1em;
+    line-height: .5em;
     margin: auto;
     text-align: center;
     font-family: 'Raleway', sans-serif; font-weight: 200;
-    padding: -.5em 0em 0em 0em;
+    padding: .1em 0em 0em 0em;
 
     }
 
@@ -105,7 +106,7 @@ h1 {
 .subtitle {
     font-weight: normal;
     text-align: center;
-    margin-top: em;
+    margin-top: 1.2em;
     font-size: 120%;
     color: #660000;
     padding-bottom: 2.25em;
@@ -187,13 +188,16 @@ img {
     margin: 1em auto;}
 
 .social  {
-    position: relative;
-    margin: auto 0;
-    }
+ justify-content: center;
+}
+    
+    
+    
 
 .social ul {
     margin: 0;
-    padding: 0
+    padding: 0;
+    
     }
 
 .social li {
@@ -207,6 +211,8 @@ img {
 .social img {
     opacity: 0.6;
     border: none;
+    position: absolute;
+    float: none;
     }
 
 .social a:hover img {
@@ -215,7 +221,8 @@ img {
     transform:scale(1.2);}
     
 .saghead {
-    opacity: 0.1;}
+    opacity: 0.8;}
+}
 
 
 /*----------------MEDIA QUERIES-----------------*/
