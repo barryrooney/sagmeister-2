@@ -12,7 +12,7 @@ footer {padding-top: 2.5em}
 footer {padding-bottom:2em}
 
 body {
-    margin: 0;
+    margin: auto;
     min-width: 500px;
   
     background-color: #EEE;
@@ -65,9 +65,7 @@ html.no-touch body {
 p{
     font-family: 'Raleway', sans-serif;
     line-height: 1.6em;
-    width: 80%;
-    max-width: 2000px;
-    min-width: 300px;
+    max-width: 500px;
     margin: auto;
     
 }
@@ -79,14 +77,11 @@ h2, h3 {
     padding-bottom: 1.5em;
     padding-top: 1.em;
     font-family: 'Raleway', sans-serif;
-    width: 100%;
-    
+   margin: auto;
     }
 
 h1 {
-    width: 80%;
-    max-width:20000px;
-    min-width: 400px;
+    
     color: #660000;
     font-size: 5.6em;
     letter-spacing: -.5px;
@@ -114,6 +109,8 @@ h1 {
 
 blockquote {
 text-align: center;
+    max-width: 500px;
+    margin: auto;
 }
 
 cite {
@@ -142,12 +139,14 @@ nav {
         background: #FF0033;
         position: fixed;
         top: 0;
-        width: 100%;
+        max-width: 500px;
+    margin: auto
         margin: auto;
         line-height: 2em;
         padding-bottom: 2em;
         padding-top: 2em;
         color: #660000;
+    border-bottom: none;
    }
 
  nav ul {
@@ -161,13 +160,15 @@ nav {
         padding-top: 2em;
         color: #660000; 
         width: 100%;
+     border-bottom: none;
  }
     
 nav ul li  {
         display: inline;
         margin: 5px;
     font-family: 'Raleway', sans-serif;
-     color: #660000;}
+     color: #660000;
+border-bottom: none;}
 
 nav a:hover {
     color: aliceblue;
@@ -180,40 +181,21 @@ nav a:hover {
 
 /*-----------IMAGES-----------------*/
 
-
 img {
     display: block; 
     max-width: 100%;
     padding: 0;
     margin: 1em auto;}
 
-.social  {
- justify-content: center;
-}
-    
-    
-    
-
-.social ul {
-    margin: 0;
-    padding: 0;
-    
-    }
-
-.social li {
-    margin: 0 15px;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-    }
-
+.social {;
+max-width: 500px;
+    margin: auto;}
 
 .social img {
     opacity: 0.6;
-    border: none;
-    position: absolute;
-    float: none;
-    }
+    display: binline;
+       
+}
 
 .social a:hover img {
     opacity: 1.0;
@@ -225,6 +207,9 @@ img {
 }
 
 
+
+
+
 /*----------------MEDIA QUERIES-----------------*/
 
 
@@ -233,7 +218,7 @@ img {
      
 p, h1, h2, h3, blockquote, a, table
 {
-        width: 95%;}
+        width: 60%;}
     
 img {
     display: block;
@@ -248,16 +233,18 @@ img {
 
     
 
-    p, h1, h2, h3, blockquote, a, table
+    p, h1, h2, h3, blockquote, a
 {
-        width: 90%;}
+        width: 50%;}
     
 h1 {font-size: 3em;}   
     
     h3 {font-size: 2em}
    
 nav {font-size: .75em;
-    margin: 0px}
+    margin: 0px;
+    width: 100%;
+        }
     
 blockquote { 
     font-size: 1.3em; }
