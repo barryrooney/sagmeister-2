@@ -17,4 +17,11 @@ Version 2
 
 HTML Mark up and CSS version 2 - adjusted responsive queries
 
+Version 3
+=================
+
++ [Version 3](https://barryrooney.github.io/sagmeister-2/sagmeister3.html)
+
+Adding images
+
 
