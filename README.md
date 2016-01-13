@@ -33,6 +33,23 @@ Problems to be solved in next version:
 • Link for original images to be added
 • Captions to be added
 
+Version 4
+=================
+
++ [Version 3](https://barryrooney.github.io/sagmeister-2/sagmeister4.html)
+
+Header Image added
+
+Problems STILL to be solved in next version:
+
+• SOCIAL ICONS in footer - need to be horizontal!
+• Nav 'blue' and underline colour to be addressed
+• Link for original images to be added
+• Captions to be added
+• Final Spell Check to be complete
+• Things Ive leaent in my life grid to be added
+
+
 
 
 
