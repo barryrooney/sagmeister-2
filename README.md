@@ -22,6 +22,17 @@ Version 3
 
 + [Version 3](https://barryrooney.github.io/sagmeister-2/sagmeister3.html)
 
-Adding images
+Adding images.
+
+Problems to be solved in next version:
+
+• SOCIAL ICONS in footer - need to be horizontal!
+• Header image to be uploaded
+• Nav 'blue' colour to be addressed
+• Space between image at top of footer to be addressed
+• Link for original images to be added
+• Captions to be added
+
+
 
 
