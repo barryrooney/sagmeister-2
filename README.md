@@ -36,7 +36,7 @@ Problems to be solved in next version:
 Version 4
 =================
 
-+ [Version 3](https://barryrooney.github.io/sagmeister-2/sagmeister4.html)
++ [Version 4](https://barryrooney.github.io/sagmeister-2/sagmeister4.html)
 
 Header Image added
 
