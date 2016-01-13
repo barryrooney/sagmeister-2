@@ -47,7 +47,7 @@ html.no-touch body {
 
 
 .red1 
-{ background: none;}
+{ background: #FF0033;}
 
 .black
 { background: #323232;} /* or #323232 if too dark */
@@ -58,6 +58,17 @@ html.no-touch body {
 .pic1{
     width: auto;
     margin: auto;
+}
+
+.pic2
+{
+width: auto;
+margin: auto;
+}
+
+.footerpic: {
+    padding-bottom: -2em;
+    margin-bottom: 
 }
 
 /* --------------- TYPOGRAPHY ---------------- */
@@ -201,8 +212,6 @@ display: block;}
     opacity: 0.6;
     display: block;
     max-width: 500px;
-    
-       
 }
 
 .social a:hover img {
