@@ -49,6 +49,13 @@ Problems STILL to be solved in next version:
 • Final Spell Check to be complete
 • Things Ive leaent in my life grid to be added
 
+Version 5
+=================
+
++ [Version 5](https://barryrooney.github.io/sagmeister-2/sagmeister5.html)
+
+Addressing Nav & Social Media Icon list issues.
+
 
 
 

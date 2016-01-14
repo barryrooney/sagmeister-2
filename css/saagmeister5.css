@@ -1,0 +1,408 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 94%;
+    line-height: 1.em;}
+
+
+section {padding: 2em 0 2em 0}
+
+header {padding-top: 3em}
+footer {padding-top: 2.5em}
+footer {padding-bottom:2em}
+
+body {
+    margin: auto;
+    min-width: 100px;
+  
+    background-color: #EEE;
+    color: #1F1F1F;
+    
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+html.no-touch body {
+    overflow: hidden;
+    position: relative;
+    perspective: 2000px;
+    -moz-perspective: 2000px;
+    -webkit-perspective: 2000px;
+
+    perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -webkit-perspective-origin: 50% 50%;
+
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+.header {
+width: auto;
+    margin: auto;}
+
+.grey {
+padding-top: 0em;}
+
+.red1 
+{ background: #FF0033;}
+
+.black
+{ background: #323232;} /* or #323232 if too dark */
+
+.grey
+{ background: #7f7f7f;
+margin-top: 0;
+padding-top: 0;}
+
+.pic1{
+    max-width: auto;
+    margin: auto;
+}
+
+.pic2
+{
+width: auto;
+margin: auto;
+}
+
+.somanydogs1
+{max-width: 500px;
+    min-width: 100px
+}
+
+
+
+
+
+
+
+
+/* --------------- TYPOGRAPHY ---------------- */
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6em;
+    max-width: 500px;
+    margin: auto;
+    min-width: 50px;
+    }
+
+h2, h3, h4 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 1.2em;
+    padding-top: 1.em;
+    font-family: 'Raleway', sans-serif;
+   margin: auto;
+    }
+
+h1 {
+    
+    color: #FF0033;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: -.5px;
+    line-height: 1.2em;
+   margin: auto;
+    font-family: 'Raleway', sans-serif; font-weight: 200;
+    max-width: 500px;
+    min-width: 50px;
+
+    }
+
+.many {
+    font-family: 'Raleway', sans-serif; font-weight: bold;
+    font-size: .99em;
+}
+
+.subtitle {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1.2em;
+    font-size: 120%;
+    color: #660000;
+    padding-bottom: 2.25em;
+}
+
+blockquote {
+text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+cite {
+    text-align: center;}
+
+.redtext {
+color: #FF0033;
+}
+
+.whitetext {
+color: #FFFFFF;
+    text-align: center;
+    max-width: 500px;}
+    
+ 
+
+}
+
+.whitetext1 {
+color: #000000;
+text-align: left;
+    line-height: 6em;
+}
+
+.whitetext2 {
+color: #000000;
+text-align: center;
+line-height: 1.6em;
+    margin: auto;
+        padding top: 4em;
+    
+}
+
+
+
+a {text-decoration: none;}
+
+#whitetext3 {
+text-align: left;
+color: #FFFFFF;
+max-width: 389px:}
+
+
+#redtext10 {
+text-align: center;}
+
+
+}
+
+/* --------------- NAV ---------------- */
+
+nav {
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        max-width: 500px;
+        margin: auto;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;   }
+
+ nav ul {
+        text-align: center;
+        background: #FF0033;
+        position: fixed;
+        top: 0;
+        letter-spacing: 1px;
+        line-height: 2em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        width: 100%;
+ }
+    
+nav ul li  {
+        display: inline;
+        margin: 5px;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;}
+
+nav a {
+    color: #fff;}
+
+nav a:hover {
+    color: aliceblue;
+    border-bottom: none;
+    transition: all .4s ease-out;
+    transform:scale(1.2); 
+    }
+
+
+
+/*-----------IMAGES-----------------*/
+
+img {
+    display: block; 
+    max-width: 100%;
+    padding top: 5em;
+    margin: auto;
+margin: auto;}
+
+.social {;
+display: block;}
+
+.social img {
+    opacity: 0.6;
+    display: block;
+    max-width: 500px;
+}
+
+.social a:hover img {
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.2);}
+    
+.saghead {
+    opacity: 0.8;}
+
+.book {
+padding-bottom: -20em;
+    margin-bottom: 0em;
+    }
+
+#dog1 {
+margin-top: .5em;}
+
+#dog2 {
+margin-top: .5em;}
+
+#dog3 {
+margin-top: 1em;}
+
+#dog4 {
+margin-top: .5em;}
+
+#madeyoulook {
+padding-top: 0px;}
+
+/*-----------SOCIAL-----------------*/
+
+.social {
+position: relative;
+margin: 0 auto;
+margin: 20px, 0;
+ 
+}
+
+.social ul {
+margin: 0;
+padding: 0;
+}
+
+.social li {
+margin: 0px;
+padding: 1em;
+list-style: none; 
+display: inline-block;}
+ 
+.social a:link {
+border-bottom: none;}
+ 
+.social img {
+    margin: auto 0;
+opacity: 0.5;
+    border: none;
+   
+}
+
+.social a:hover img {
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.2);}
+
+#by {
+padding-top: 1.1em;
+margin-bottom: 5em;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*-----------SOCIAL-----------------*/
+
+
+
+
+
+
+
+/*----------------MEDIA QUERIES-----------------*/
+
+
+/*-----TABLET-------*/
+@media (max-width: 50em) {
+     
+p, h1, h2, h3, blockquote, a, table
+{
+        width: 60%;}
+    
+img {
+    display: block;
+    margin: auto;
+    padding: 0;
+    max-width: 100%}
+}
+
+.smd2 {
+max-width: 50%}
+
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 31em) {
+
+    
+
+    p, h1, h2, h3, blockquote, a
+{
+        width: 50%;}
+    
+h1 {font-size: 3em;}   
+    
+    h3 {font-size: 2em}
+   
+nav {font-size: .75em;
+    margin: 0px;
+    width: 100%;
+        }
+    
+blockquote { 
+    font-size: 1.3em; }
+    
+.intro {
+     width: 90%;
+     font-size: 1.3em; }
+    
+    
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 20px 50px;; 
+   }
+
+caption { 
+    font-size: em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    font-style: italic;
+    color:#3F638E ;
+    }
+
+
+table.head, th {
+    color: #3F638E;
+    text-transform: uppercase
+    font-weight: bold;
+    text-align: center;
+     }
+
+th, td {
+    font-size: 1em;
+    text-align: left;
+    padding: 0.6em;}
+
+
+
+    
+
+   
